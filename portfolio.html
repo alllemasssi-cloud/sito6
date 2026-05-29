@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showreel - Alessandro Massidda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-container">
+            <div class="runner">
+                <svg viewBox="0 0 100 100" class="runner-svg">
+                    <circle cx="40" cy="20" r="8" fill="#2c3e50"/>
+                    <line x1="40" y1="28" x2="40" y2="50" stroke="#2c3e50" stroke-width="2"/>
+                    <line x1="40" y1="35" x2="25" y2="45" stroke="#2c3e50" stroke-width="2"/>
+                    <line x1="40" y1="35" x2="55" y2="25" stroke="#2c3e50" stroke-width="2"/>
+                    <line x1="40" y1="50" x2="30" y2="70" stroke="#2c3e50" stroke-width="2"/>
+                    <line x1="40" y1="50" x2="50" y2="75" stroke="#2c3e50" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="loading-text">
+                <span class="percentage" id="percentage">0</span>%
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress" id="loadingProgress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-circle">AM</div>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="portfolio.html" class="nav-link active">Showreel</a></li>
+                <li><a href="educazione.html" class="nav-link">Ed Civica</a></li>
+                <li><a href="fsl.html" class="nav-link">FSL</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Portfolio Page -->
+    <div class="page portfolio-page">
+        <div class="page-gradient" style="background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);"></div>
+        
+        <section class="portfolio-hero">
+            <h1 class="section-title reveal-text">Il Mio Portfolio</h1>
+            <p class="section-subtitle fade-in">
+                Una collezione di progetti grafici e creativi che rappresentano la mia visione e il mio stile. 
+                Ogni lavoro è stato realizzato con dedizione, combinando design moderno, storytelling visivo 
+                e una profonda attenzione ai dettagli. Qui potrai scoprire come trasformo idee in esperienze visive memorabili.
+            </p>
+        </section>
+
+        <section class="portfolio-grid">
+            <div class="portfolio-item reveal-item">
+                <div class="portfolio-image">
+                    <img src="https://via.placeholder.com/500x300" alt="Progetto 1">
+                    <div class="portfolio-overlay">
+                        <h3>Progetto Grafico 1</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item reveal-item">
+                <div class="portfolio-image">
+                    <img src="https://via.placeholder.com/500x300" alt="Progetto 2">
+                    <div class="portfolio-overlay">
+                        <h3>Progetto Grafico 2</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item reveal-item">
+                <div class="portfolio-image">
+                    <img src="https://via.placeholder.com/500x300" alt="Progetto 3">
+                    <div class="portfolio-overlay">
+                        <h3>Progetto Grafico 3</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item reveal-item">
+                <div class="portfolio-image">
+                    <img src="https://via.placeholder.com/500x300" alt="Progetto 4">
+                    <div class="portfolio-overlay">
+                        <h3>Progetto Grafico 4</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
